@@ -2,8 +2,8 @@
 
 Summary:	Sphinx theme for use with Read the Docs
 Name:		python-%{module}
-Version:	1.0.0
-Release:	2
+Version:	3.0.2
+Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/s/sphinx-rtd-theme/sphinx_rtd_theme-%{version}.tar.gz
 License:	MIT
 Group:		Development/Python
@@ -29,6 +29,5 @@ You can find a working demo of the theme in the theme documentation
 %py_install
 
 %files
-%{python_sitelib}/sphinx_rtd_theme-%{version}-py*.*.egg-info/PKG-INFO
 %{python_sitelib}/sphinx_rtd_theme-%{version}-py*.*.egg-info
 %{python_sitelib}/sphinx_rtd_theme/
